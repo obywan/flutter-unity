@@ -35,6 +35,10 @@ class UnityViewController {
     _channel.invokeMethod('pause');
   }
 
+  void quit() {
+    _channel.invokeMethod('quit');
+  }
+
   void resume() {
     _channel.invokeMethod('resume');
   }
